@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+<section>
+   <h1>Tip Calculator</h1>
+<p> <b> Bill: # </b><input type="number" min="1" placeholder="Enter Bill Amount" id="bill"></p>
+<p><b>Tip: %</b><input type="number" min="1" placeholder="Percentage Tip" id="tip"></p> 
+<p id="people"> <b>N<ins>o</ins> of people sharing the bill</b></p>
+<input type="number" min="1" placeholder="No of people" id="person"><br><br>
+<button id="calculate">Calculate</button>
+<div id="result">
+    <p>Tip Total : <b> # <span id="tip-total">0</span></b></p> 
+    <p>Tip Each Person : <b> # <span id="tip-person">0</span></b></p>
+    <p>Total (Bill + Tip) :<b> # <span id="total">0</span></b></p>
+    <p>Total Each Person : <b> # <span id="total-person">0</span></b></p>
+ 
+</div>
+</section>
+<script src="resources/js/jquery.min.js"></script>
+<script src="resources/js/myscript.js"></script>
+</body>
+</html>
