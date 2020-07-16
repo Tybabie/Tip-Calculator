@@ -36,6 +36,9 @@ section h1{
 #person{
     margin-left: 60px;
 }
+#people{
+    margin-left: -13px;
+}
 section button{
     margin-left: 40px;
     padding: 10px 18px;
